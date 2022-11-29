@@ -4,6 +4,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .logo{
     width: 150px;
@@ -185,16 +188,16 @@
 
 .banner{
     margin: 0 200px;
-    /* border:  1px solid greenyellow; */ /* para confirmar la iteración y orden */
-    border-radius: 30%;
+    /* border:  1px solid greenyellow;  *//* para confirmar la iteración y orden */
+    border-radius: 5%;
 }
 
 #carouselExampleControls .image-top{
-    height: 250px;
+    height: 15rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 30%;
+    border-radius: 5%;
 }
 
 
