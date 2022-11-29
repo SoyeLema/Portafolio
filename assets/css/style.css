@@ -53,7 +53,7 @@ body{
 
 .presentacion {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     margin: auto;
     color: #fff;
     display: flex;
@@ -103,13 +103,6 @@ body{
 .presentacion a:hover {
     background-color: rgb(255, 166, 0);
 }
-
-/* #sobremi{
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../imgs/fondo2.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-} */
 
 #sobremi{
     max-width: 1100px;
@@ -187,7 +180,8 @@ body{
 }
 
 .banner{
-    margin: 0 200px;
+    margin: 0 0;
+    padding: 0 200px;
     /* border:  1px solid greenyellow;  *//* para confirmar la iteración y orden */
     border-radius: 5%;
 }
@@ -246,7 +240,6 @@ body{
 }
 
 .btn{
-    /* background-color: #111135; */
     text-decoration: none;
     color: white;
     border-color: greenyellow;
