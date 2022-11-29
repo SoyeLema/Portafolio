@@ -12,6 +12,16 @@ body{
     width: 150px;
 }
 
+.logofin{
+    width: 100px;
+}
+
+.navbar{
+    width:inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .navbar-nav a{
     text-decoration: none;
     color: greenyellow;
@@ -25,12 +35,11 @@ body{
     color:rgb(255, 166, 0);
 }
 
-.navbar-nav a:active{
-    color:rgb(255, 166, 0);
-}
 
 .navbar-toggler{
     color: greenyellow;
+    display:block;
+    align-items: flex-start;
 }
 
 .redes a{
@@ -180,10 +189,12 @@ body{
 }
 
 .banner{
-    margin: 0 0;
-    padding: 0 200px;
-    /* border:  1px solid greenyellow;  *//* para confirmar la iteración y orden */
-    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 0 0px;
+    border:  1px solid white; /* para confirmar la iteración y orden */
+    border-radius: 30px;
 }
 
 #carouselExampleControls .image-top{
@@ -191,7 +202,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
 
@@ -227,6 +238,7 @@ body{
     padding-top: 100px;
 }
 
+
 .card{
     display: flex;
     border-color: greenyellow;
@@ -259,6 +271,58 @@ body{
 .btn:hover i{
     color:#000;
     transition: .5s;
+}
+
+.card2{
+    border: solid 1px greenyellow;
+    border-radius: 30px; 
+    padding: 20px;   
+}
+
+.btn2{
+    text-decoration: none;
+    color: white;
+    border: solid 1px greenyellow;
+    border-radius: 30px;
+    transition: .5s;
+    padding: 10px;
+    margin: 0 0;
+    margin-bottom: 15px;
+    
+}
+
+.btn2 i{
+    color: greenyellow;
+}
+
+.btn2:hover{
+    color:white;
+    background-color: rgb(255, 166, 0);
+    border-color:white;
+}
+
+.btn2:hover i{
+    color:#000;
+    transition: .5s;
+}
+
+.card-body2{
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-title2{
+    text-align:center;
+}
+.card-text2{
+    text-align: center;
 }
 
 #contact .contacto .form-title{
